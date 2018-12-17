@@ -1,0 +1,27 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = HdaLib
+  FILE_GUID                      = f5dc9660-5934-4372-bce7-e273ef9499b6
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = HdaLib|DXE_DRIVER UEFI_DRIVER UEFI_APPLICATION
+  VALID_ARCHITECTURES            = X64
+
+[Sources]
+  PciConfigurations.h
+  PciConfigurations.c
+  HdaParserLib.h
+  HdaParserLib.c
+  HdaLib.h
+  HdaLib.c
+  
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  
+[LibraryClasses]
+  MemoryAllocationLib
+
+[Protocols]
+  gEfiPciRootBridgeIoProtocolGuid
+  gEfiPciIoProtocolGuid

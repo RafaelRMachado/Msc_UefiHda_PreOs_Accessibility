@@ -1,0 +1,32 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = BeneMusicPlayer
+  FILE_GUID                      = f076f03f-5fc0-4a79-b5ad-c2536205e2e9
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64
+#
+
+[Sources]
+  BeneMusicPlayer.h
+  BeneMusicPlayer.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  HdaLib
+  MemoryAllocationLib
+  
+[Protocols]
+gEfiPciRootBridgeIoProtocolGuid
+gEfiSimpleFileSystemProtocolGuid
+
