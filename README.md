@@ -16,4 +16,5 @@ https://youtu.be/6ED2BSc89-Y
 Song being played correctly at UEFI environment (This song's name is "Zero", from the brazilian havy metal band "Dr Sin")
 https://youtu.be/2De9dI9WbwM
 
-Ps.: Sorry for the bad quality videos, this will be inproved in future.
+Ps .: Sorry for the bad quality videos, this will be improved in future.
+PS2 .: The last video was recoerded at the kitchen because my son was already sleeping :)
