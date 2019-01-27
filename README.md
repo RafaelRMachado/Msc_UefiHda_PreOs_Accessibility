@@ -14,4 +14,3 @@ Song being played correctly at UEFI environment (This song's name is "Zero", fro
 https://youtu.be/2De9dI9WbwM
 
 Ps .: Sorry for the bad quality videos, this will be improved in future.
-PS2 .: The last video was recoerded at the kitchen because my son was already sleeping :)
